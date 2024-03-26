@@ -1,0 +1,34 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from lucca_organization_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from lucca_organization_python_sdk.model.axis import Axis
+from lucca_organization_python_sdk.model.axis_section import AxisSection
+from lucca_organization_python_sdk.model.axis_section_treeless import AxisSectionTreeless
+from lucca_organization_python_sdk.model.axis_treeless import AxisTreeless
+from lucca_organization_python_sdk.model.axissections_create_new_axis_section_response import AxissectionsCreateNewAxisSectionResponse
+from lucca_organization_python_sdk.model.axissections_get_by_id_response import AxissectionsGetByIdResponse
+from lucca_organization_python_sdk.model.axissections_list200_response import AxissectionsList200Response
+from lucca_organization_python_sdk.model.axissections_list200_response_data import AxissectionsList200ResponseData
+from lucca_organization_python_sdk.model.axissections_list_response import AxissectionsListResponse
+from lucca_organization_python_sdk.model.axissections_list_response_data import AxissectionsListResponseData
+from lucca_organization_python_sdk.model.axissections_update_by_id_response import AxissectionsUpdateByIdResponse
+from lucca_organization_python_sdk.model.department import Department
+from lucca_organization_python_sdk.model.department_tree_node import DepartmentTreeNode
+from lucca_organization_python_sdk.model.department_tree_node_node import DepartmentTreeNodeNode
+from lucca_organization_python_sdk.model.departments_get_all400_response import DepartmentsGetAll400Response
+from lucca_organization_python_sdk.model.departments_get_all_response import DepartmentsGetAllResponse
+from lucca_organization_python_sdk.model.departments_get_all_response_data import DepartmentsGetAllResponseData
+from lucca_organization_python_sdk.model.departments_get_by_id_response import DepartmentsGetByIdResponse
+from lucca_organization_python_sdk.model.departments_list_tree_response import DepartmentsListTreeResponse
+from lucca_organization_python_sdk.model.departments_list_tree_response_data import DepartmentsListTreeResponseData
+from lucca_organization_python_sdk.model.user import User
